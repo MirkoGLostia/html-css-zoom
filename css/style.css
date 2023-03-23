@@ -1,5 +1,41 @@
+/* general */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+
+
+
+/* header */
+
+.head-bar{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+.head-bar button{
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(74,74,74);
+    color: white;
+}
+
+
+
+
+
+
+/* debug */
+
+/* .head-bar{
+    border: solid red 3px;
+} */
