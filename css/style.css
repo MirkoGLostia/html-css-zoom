@@ -47,9 +47,9 @@
 
 /* main */
 
-
 #main-container{
     padding: 100px 50px;
+    padding-bottom: 150px;
     background-color: black;
     width: 100vw;
     display: flex;
@@ -77,6 +77,25 @@
 
 
 /* footer */
+
+#foot-nav{
+    background-color: rgb(34,34,34);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+#foot-nav > div{
+    display: flex;
+}
+
+
+
+
 
 
 
