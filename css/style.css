@@ -13,6 +13,11 @@
 }
 
 
+
+
+
+
+
 /* header */
 
 .head-bar{
@@ -20,6 +25,7 @@
     height: 50px;
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 
 .head-bar button{
@@ -36,12 +42,21 @@
 
 
 
+
+
+
 /* main */
+
 
 #main-container{
     padding: 100px 50px;
     background-color: black;
-    width: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px;
 }
 
 .profile{
@@ -58,6 +73,10 @@
     padding: 5px;
 }
 
+
+
+
+/* footer */
 
 
 
